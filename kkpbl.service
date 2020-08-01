@@ -1,0 +1,16 @@
+[Unit]
+Description=Spring Boot kkpbl
+After=syslog.target
+After=network.target[Service]
+User=root
+Type=simple
+
+[Service]
+ExecStart=/usr/bin/java -jar /home/git/kkpbl/target/kkp-0.0.1-SNAPSHOT.jar
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=kkpbl
+
+[Install]
+WantedBy=multi-user.target
