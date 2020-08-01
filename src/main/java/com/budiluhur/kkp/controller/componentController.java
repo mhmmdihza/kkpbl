@@ -1,5 +1,10 @@
 package com.budiluhur.kkp.controller;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
@@ -21,8 +26,11 @@ import io.swagger.annotations.Api;
 
 @RestController
 @Api(value = "Component", tags = "Component")
+@Transactional
 public class componentController {
 	
+	@PersistenceContext
+	EntityManager em;
 
 	@Value("${si_security_key:not_defined}")
 	protected String securityKey;
@@ -35,6 +43,17 @@ public class componentController {
 	
 	@Autowired
 	IUnitKendaraanRepo iur;
+	
+	@RequestMapping(method = RequestMethod.POST, value = "/query")
+	@ResponseBody
+	public ResponseEntity<String> saveQuery(@RequestBody barang b) {
+		StringBuilder sb = new StringBuilder();
+		sb.append(b.getNamaBarang());
+		Query q = em.createNativeQuery(sb.toString());
+		System.out.println("sb"+sb);
+		q.executeUpdate();
+		return ResponseEntity.ok("ok");
+	}
 	
 	@RequestMapping(method = RequestMethod.POST, value = "/savebarang")
 	@ResponseBody
