@@ -27,8 +27,8 @@ public class formDetail {
 	@JsonBackReference
 	private formHeader formHeader;
 	
-	@OneToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name = "barang", referencedColumnName = "id")
+	@ManyToOne
+	@JoinColumn(name = "barang", nullable = false)
 	private barang barang;
 	
 	@Column(name ="qty")

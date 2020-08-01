@@ -68,6 +68,13 @@ public class imageFile {
 		return ResponseEntity.ok(nameFile);
 
 	}
+	@RequestMapping(method = RequestMethod.POST, value = "/saveInitialSign/{nrk}")
+	@ResponseBody
+	public ResponseEntity<String> saveInitialSign(@PathVariable("nrk") String nameFile,@RequestBody imageBase64 im) {
+		this.decoderImageBase64(im.getImageBase64(), nameFile, INITIALSIGNPATH);
+		return ResponseEntity.ok(nameFile);
+
+	}
 	
 	
 	private String getImageBase64(String path, String fileName) {

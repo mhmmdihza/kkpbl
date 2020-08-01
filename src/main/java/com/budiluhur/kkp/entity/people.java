@@ -35,7 +35,7 @@ public class people {
 	@Column(name="jabatan")
 	private String jabatan;
 	 
-	@OneToOne(cascade = CascadeType.ALL)
+	@OneToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name = "sektor", referencedColumnName = "id")
 	private sektor sektor;
 	

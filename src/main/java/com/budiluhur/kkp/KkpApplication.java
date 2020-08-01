@@ -51,7 +51,7 @@ public class KkpApplication {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.any())
 				.apis(RequestHandlerSelectors.basePackage("com.budiluhur.kkp.controller")).paths(PathSelectors.any())
-				.build().apiInfo(apiInfo()).globalOperationParameters(null);
+				.build().apiInfo(apiInfo()).globalOperationParameters(getSecurityParameters());
 	}
 	private ApiInfo apiInfo() {
 		Contact contact = new Contact("Muhamad Satria Ihza", "some url", "mhmmdihza@gmail.com");
