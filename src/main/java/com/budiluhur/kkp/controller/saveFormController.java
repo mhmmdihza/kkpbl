@@ -81,7 +81,7 @@ public class saveFormController extends Encryption{
 		imageFile im = new imageFile();
 		imageBase64 imgbase = new imageBase64();
 		imgbase.setImageBase64(fh.getFormSign());
-		fh.setFormSign(fh.getId());
+		fh.setFormSign(fh.getId().toString());
 		String nrkKasudin = "null";
 		String nrkKepsek = "null";
 		String reason = "'-'";
