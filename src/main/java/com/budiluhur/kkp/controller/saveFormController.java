@@ -84,6 +84,7 @@ public class saveFormController extends Encryption{
 		String nrkKasudin = "null";
 		String nrkKepsek = "null";
 		String reason = "'-'";
+		fh.setTglInq(new Date());
 		if(fh.getApprovedByKasudin()!=null) {
 			nrkKasudin = fh.getApprovedByKasudin().getNrk();
 			nrkKasudin = "'"+nrkKasudin+"'";
@@ -124,7 +125,7 @@ public class saveFormController extends Encryption{
 		q.executeUpdate();
 		
 		
-		fh.setTglInq(new Date());
+		
 		try {
 			System.out.println("mapper"+mapper.writeValueAsString(fh));
 		} catch (JsonProcessingException e) {
