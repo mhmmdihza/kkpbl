@@ -119,7 +119,7 @@ public class saveFormController extends Encryption{
 		System.out.println("id" +id);
 		fh.setId(Long.parseLong(id.toString()));
 		//
-		System.out.println("image"+imgbase);
+		System.out.println("image"+imgbase.getImageBase64());
 		im.saveFormSign(fh.getId()+".png",imgbase);
 		fh.setFormSign(fh.getId()+".png");
 		
