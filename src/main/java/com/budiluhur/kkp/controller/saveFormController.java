@@ -123,7 +123,7 @@ public class saveFormController extends Encryption{
 		im.saveFormSign(fh.getId()+".png",imgbase);
 		fh.setFormSign(fh.getId()+".png");
 		
-		q = em.createNativeQuery("Update form_header set form_sign = '"+fh.getFormSign()+".png' where id = "+fh.getId());
+		q = em.createNativeQuery("Update form_header set form_sign = '"+fh.getFormSign()+"' where id = "+fh.getId());
 		q.executeUpdate();
 		
 		
