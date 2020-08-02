@@ -248,7 +248,7 @@ public class saveFormController extends Encryption{
 	
 	@RequestMapping(method = RequestMethod.POST, value = "/form/approve/{status}")
 	@ResponseBody
-	public ResponseEntity<String> approveForm(@RequestBody formHeader fh,@RequestBody people p,@PathVariable("status")String status) {
+	public ResponseEntity<String> approveForm(@RequestBody formHeader fh,@PathVariable("status")String status) {
 		formHeader form = ifr.findById(fh.getId()).get();
 		if(status.equalsIgnoreCase("APPROVED1")) {
 			fh.setReason("APPROVED1");
@@ -258,10 +258,17 @@ public class saveFormController extends Encryption{
 			ifr.save(fh);
 		}
 		else {
-			String reason;
-			reason = "Rejected By "+p.getNik() +"("+p.getJabatan()+") - "+fh.getReason();
-			fh.setReason(reason);
-			ifr.save(fh);
+			if(fh.getApprovedByKasudin()==null) {
+				String reason;
+				reason = "Rejected By "+fh.getApprovedByKepsek().getNrk() +"("+fh.getApprovedByKepsek().getJabatan()+") - "+fh.getReason();
+				fh.setReason(reason);
+				ifr.save(fh);
+			}else {
+				String reason;
+				reason = "Rejected By "+fh.getApprovedByKasudin().getNrk() +"("+fh.getApprovedByKasudin().getJabatan()+") - "+fh.getReason();
+				fh.setReason(reason);
+				ifr.save(fh);
+			}
 		}
 		return ResponseEntity.ok(fh.getReason());
 	}
