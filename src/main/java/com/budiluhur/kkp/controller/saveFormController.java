@@ -77,6 +77,7 @@ public class saveFormController extends Encryption{
 	@RequestMapping(method = RequestMethod.POST, value = "/form/save")
 	@ResponseBody
 	public ResponseEntity<formHeader> saveForm(@RequestBody formHeader fh) {
+		try {
 		imageFile im = new imageFile();
 		imageBase64 imgbase = new imageBase64();
 		imgbase.setImageBase64(fh.getFormSign());
@@ -173,6 +174,10 @@ public class saveFormController extends Encryption{
 		 
 		
 		return ResponseEntity.ok(fh);
+		}catch(Exception e) {
+			e.printStackTrace();
+			return null;
+		}
 	}
 	@RequestMapping(method = RequestMethod.POST, value = "/form/update")
 	@ResponseBody
