@@ -74,7 +74,7 @@ public class componentController {
 	public ResponseEntity<String> sendEmailReport(@RequestBody emailReport ems) throws MessagingException, IOException{
 		System.out.println("email to "+ ems.getEmail());
 		StringBuilder sb = new StringBuilder();
-		sb.append("SELECT form_header.id,form_header.tgl_inq,form_header.people,form_header.sektor,form_header.unit_kendaraan,form_header.reason,form_detail.barang,form_detail.qty from form_header,form_detail  ");
+		sb.append("SELECT form_header.id,form_header.tgl_inq,form_header.people,form_header.sektor,form_header.unit_kendaraan,form_header.reason,form_detail.barang,form_detail.qty from form_header INNER JOIN form_detail on form_header.id = form_detail.form_id  ");
 		sb.append("where form_header.tgl_inq >= '"+ems.getStartDate()+"' and form_header.tgl_inq <= '"+ems.getEndDate()+"'");
 		sb.append(" order by form_header.id desc");
 		System.out.println("Query "+sb.toString());
