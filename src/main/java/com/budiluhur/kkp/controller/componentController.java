@@ -18,11 +18,17 @@ import javax.mail.internet.MimeMessage;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
+import javax.servlet.ServletContext;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.InputStreamResource;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.ResourceLoader;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
@@ -220,5 +226,34 @@ public class componentController {
 	public ResponseEntity<String> deleteUnitKendaraan(@RequestBody unitKendaraan b) {
 		iur.delete(b);
 		return ResponseEntity.ok("sukses menghapus unit Kendaraan plat no : " + b.getPlatNo());
+	}
+	
+	@Autowired
+	private ServletContext servletContext;
+	
+	@Autowired
+	private ResourceLoader resourceLoader;
+
+	@RequestMapping(value = "/downloadapk", method = RequestMethod.GET)
+	public ResponseEntity<InputStreamResource> downloadFile1() throws IOException {
+		String fileName = "kkpbl.apk";
+		Resource resource = resourceLoader.getResource("classpath:apk/" + fileName);
+		MediaType mediaType = getMediaTypeForFileName(this.servletContext, fileName);
+		InputStreamResource resourceFinal = new InputStreamResource(resource.getInputStream());
+
+		return ResponseEntity.ok().header(HttpHeaders.CONTENT_DISPOSITION, "attachment;filename=" + fileName)
+
+				.contentType(mediaType).body(resourceFinal);
+
+	}
+
+	private static MediaType getMediaTypeForFileName(ServletContext servletContext, String fileName) {
+
+		String mineType = servletContext.getMimeType(fileName);
+		try {
+			return MediaType.parseMediaType(mineType);
+		} catch (Exception e) {
+			return MediaType.APPLICATION_OCTET_STREAM;
+		}
 	}
 }
