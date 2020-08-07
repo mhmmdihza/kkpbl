@@ -7,8 +7,8 @@ import javax.xml.bind.DatatypeConverter;
  
 public class Encryption {
  
-    @Value("${si_security_key:not_defined}")
-	   protected String securityKey;
+    @Value("${si_security_key}")
+	protected String securityKey;
  
     public void tes() throws Exception {
         String kunciEnkripsi = "a2lzbWFuIGltYW4g";
