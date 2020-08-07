@@ -9,8 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
  
 public class Encryption {
  
-    @Value("${si_security_key}")
-	protected String securityKey;
+	private String securityKey = "a2lzbWFuIGltYW4g";
  
     public void tes() throws Exception {
         String kunciEnkripsi = "a2lzbWFuIGltYW4g";
