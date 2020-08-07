@@ -27,7 +27,7 @@ public class Encryption {
     public String encryptAES(String Data, String k)
             throws Exception {
         Cipher c = Cipher.getInstance("AES");
-        Key key = generateKey(securityKey);
+        Key key = generateKey(this.securityKey);
         c.init(Cipher.ENCRYPT_MODE, key);
         byte[] encVal = c.doFinal(Data.getBytes());
         // String encryptedValue = new BASE64Encoder().encode(encVal); //
@@ -38,9 +38,9 @@ public class Encryption {
     // Method Dekripsi AES
     public String decryptAES(String encryptedData, String k)
             throws Exception {
-	System.out.println("key sec : " + securityKey);
+	System.out.println("key sec : " + this.securityKey);
         Cipher c = Cipher.getInstance("AES");
-        Key key = generateKey(securityKey);
+        Key key = generateKey(this.securityKey);
         c.init(Cipher.DECRYPT_MODE, key);
  
         // byte[] decordedValue = new
