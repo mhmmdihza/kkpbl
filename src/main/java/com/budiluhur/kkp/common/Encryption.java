@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
 public class Encryption {
  
     @Value("${si_security_key:not_defined}")
-	protected String securityKey;
+	protected static String securityKey;
  
     public void tes() throws Exception {
         String kunciEnkripsi = "a2lzbWFuIGltYW4g";
