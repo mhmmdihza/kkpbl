@@ -4,11 +4,13 @@ import java.security.Key;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 import javax.xml.bind.DatatypeConverter;
+
+import org.springframework.beans.factory.annotation.Value;
  
 public class Encryption {
  
-    @Value("${si_security_key}")
-	protected static String securityKey;
+    @Value("${si_security_key:not_defined}")
+	protected String securityKey;
  
     public void tes() throws Exception {
         String kunciEnkripsi = "a2lzbWFuIGltYW4g";
