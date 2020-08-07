@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
 public class Encryption {
  
     @Value("${si_security_key}")
-	protected static String securityKey;
+	protected String securityKey;
  
     public void tes() throws Exception {
         String kunciEnkripsi = "a2lzbWFuIGltYW4g";
@@ -24,7 +24,7 @@ public class Encryption {
         System.out.println("\nHASIL DEKRIPSI : \n" + hasilDekripsi);
     }
  
-    public static String encryptAES(String Data, String k)
+    public String encryptAES(String Data, String k)
             throws Exception {
         Cipher c = Cipher.getInstance("AES");
         Key key = generateKey(securityKey);
@@ -36,7 +36,7 @@ public class Encryption {
     }
  
     // Method Dekripsi AES
-    public static String decryptAES(String encryptedData, String k)
+    public String decryptAES(String encryptedData, String k)
             throws Exception {
 	System.out.println("key sec : " + securityKey);
         Cipher c = Cipher.getInstance("AES");
@@ -51,12 +51,12 @@ public class Encryption {
         return decryptedValue;
     }
  
-    private static Key generateKey(String k) throws Exception {
+    private Key generateKey(String k) throws Exception {
         Key key = new SecretKeySpec(convertToByte(k), "AES");
         return key;
     }
  
-    private static byte[] convertToByte(String k) {
+    private byte[] convertToByte(String k) {
         byte[] array_byte = new byte[16];
         int i = 0;
         while (i < k.length()) {
