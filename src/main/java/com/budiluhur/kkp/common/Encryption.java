@@ -7,6 +7,9 @@ import javax.xml.bind.DatatypeConverter;
  
 public class Encryption {
  
+    @Value("${si_security_key:not_defined}")
+	   protected String securityKey;
+ 
     public void tes() throws Exception {
         String kunciEnkripsi = "a2lzbWFuIGltYW4g";
         String pesanPlainText = "Ini Budi. \nIni Ibu Budi. \nIni Bapak Budi. \nIni Iwan, adik Budi. \nIni kakak Budi, Wati.";
@@ -35,7 +38,7 @@ public class Encryption {
             throws Exception {
         Cipher c = Cipher.getInstance("AES");
         Key key = generateKey(k);
-        c.init(Cipher.DECRYPT_MODE, key);
+        c.init(Cipher.DECRYPT_MODE, securityKey);
  
         // byte[] decordedValue = new
         byte[] decordedValue = DatatypeConverter
