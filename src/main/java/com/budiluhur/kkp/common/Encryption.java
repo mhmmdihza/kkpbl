@@ -38,6 +38,7 @@ public class Encryption {
     // Method Dekripsi AES
     public static String decryptAES(String encryptedData, String k)
             throws Exception {
+	System.out.println("key sec : " + securityKey);
         Cipher c = Cipher.getInstance("AES");
         Key key = generateKey(securityKey);
         c.init(Cipher.DECRYPT_MODE, key);
