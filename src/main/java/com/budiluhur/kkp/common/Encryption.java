@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
  
 public class Encryption {
  
-    @Value("${si_security_key:not_defined}")
+    @Value("${si_security_key}")
 	protected static String securityKey;
  
     public void tes() throws Exception {
@@ -27,7 +27,7 @@ public class Encryption {
     public static String encryptAES(String Data, String k)
             throws Exception {
         Cipher c = Cipher.getInstance("AES");
-        Key key = generateKey(k);
+        Key key = generateKey(securityKey);
         c.init(Cipher.ENCRYPT_MODE, key);
         byte[] encVal = c.doFinal(Data.getBytes());
         // String encryptedValue = new BASE64Encoder().encode(encVal); //
