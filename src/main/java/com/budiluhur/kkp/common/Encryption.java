@@ -37,8 +37,8 @@ public class Encryption {
     public static String decryptAES(String encryptedData, String k)
             throws Exception {
         Cipher c = Cipher.getInstance("AES");
-        Key key = generateKey(k);
-        c.init(Cipher.DECRYPT_MODE, securityKey);
+        Key key = generateKey(securityKey);
+        c.init(Cipher.DECRYPT_MODE, key);
  
         // byte[] decordedValue = new
         byte[] decordedValue = DatatypeConverter
