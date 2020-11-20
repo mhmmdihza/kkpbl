@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T13:10:26.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="xPeUCZ00gxql0W9gaJ6Q" version="13.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T13:11:26.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="HH6JcKFZMEGNv3nDtad0" version="13.9.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2674" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,18 +24,6 @@
         </mxCell>
         <mxCell id="gEkuXfyN2TQjSn-Q257O-6" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="976" y="460" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="gEkuXfyN2TQjSn-Q257O-7" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="60" y="30" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gEkuXfyN2TQjSn-Q257O-12" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="220" y="30" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gEkuXfyN2TQjSn-Q257O-13" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="380" y="30" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gEkuXfyN2TQjSn-Q257O-14" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="530" y="30" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gEkuXfyN2TQjSn-Q257O-15" value="ID" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="520" y="410" width="110" height="60" as="geometry" />
