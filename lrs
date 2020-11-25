@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T11:00:49.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="NCZzkvG7vwHbTvoVDICf" version="13.10.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-11-25T11:02:07.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="EIRmjr1MCzaG_HTh33mN" version="13.10.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="527" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -495,7 +495,7 @@
         <mxCell id="6aMzThmqzdU35u3OIYam-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="6aMzThmqzdU35u3OIYam-1" source="6aMzThmqzdU35u3OIYam-8" target="6aMzThmqzdU35u3OIYam-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6aMzThmqzdU35u3OIYam-8" value="Input Nama,NRK,NoHp,Jabatan" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="6aMzThmqzdU35u3OIYam-1">
+        <mxCell id="6aMzThmqzdU35u3OIYam-8" value="Output Nama,NRK,NoHp,Jabatan" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="6aMzThmqzdU35u3OIYam-1">
           <mxGeometry x="-110" y="480" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6aMzThmqzdU35u3OIYam-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="6aMzThmqzdU35u3OIYam-1" source="6aMzThmqzdU35u3OIYam-9" target="6aMzThmqzdU35u3OIYam-10">
