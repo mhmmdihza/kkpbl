@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T11:53:59.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="bBZs3rQ5gu0k4gfJfJx6" version="13.10.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-25T11:58:59.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="oBzCNKgfX0r2kVcv-T7C" version="13.10.2" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2234" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -455,7 +455,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZyJaFtLgt9KWutmkGGut" name="Page-2">
-    <mxGraphModel dx="3084" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="6aMzThmqzdU35u3OIYam-0" />
         <mxCell id="6aMzThmqzdU35u3OIYam-1" parent="6aMzThmqzdU35u3OIYam-0" />
@@ -601,7 +601,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eEFJhyOBuTZ4EXqnxaLv" name="Page-3">
-    <mxGraphModel dx="3084" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="MeGKYpg7c-DZxH80iXnZ-0" />
         <mxCell id="MeGKYpg7c-DZxH80iXnZ-1" parent="MeGKYpg7c-DZxH80iXnZ-0" />
@@ -726,7 +726,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1-gA_jvqA4aP-oCOgJEo" name="Page-4">
-    <mxGraphModel dx="3084" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="IuOwtOUWPV-tJuzasSwq-0" />
         <mxCell id="IuOwtOUWPV-tJuzasSwq-1" parent="IuOwtOUWPV-tJuzasSwq-0" />
@@ -751,7 +751,7 @@
         <mxCell id="VtZc0dj90f0T3lGnjYVr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="IuOwtOUWPV-tJuzasSwq-1" source="VtZc0dj90f0T3lGnjYVr-8" target="VtZc0dj90f0T3lGnjYVr-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VtZc0dj90f0T3lGnjYVr-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.585;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IuOwtOUWPV-tJuzasSwq-1" source="VtZc0dj90f0T3lGnjYVr-8" target="VtZc0dj90f0T3lGnjYVr-5">
+        <mxCell id="Uc67OvERpeIXnoucVOjq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IuOwtOUWPV-tJuzasSwq-1" source="VtZc0dj90f0T3lGnjYVr-8" target="Uc67OvERpeIXnoucVOjq-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VtZc0dj90f0T3lGnjYVr-8" value="Verifikasi Login" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="IuOwtOUWPV-tJuzasSwq-1">
@@ -843,6 +843,12 @@
         </mxCell>
         <mxCell id="Q-wTkX-3uYrvEiPq9GyZ-12" value="Alert Username/Password Salah" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="IuOwtOUWPV-tJuzasSwq-1">
           <mxGeometry x="600" y="295" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Uc67OvERpeIXnoucVOjq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IuOwtOUWPV-tJuzasSwq-1" source="Uc67OvERpeIXnoucVOjq-0" target="VtZc0dj90f0T3lGnjYVr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uc67OvERpeIXnoucVOjq-0" value="Alert Username/Password harus diisi" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="IuOwtOUWPV-tJuzasSwq-1">
+          <mxGeometry x="445" y="200" width="180" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
