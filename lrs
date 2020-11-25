@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T11:41:34.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="RPkMtBSVZzMCvXbyivaB" version="13.10.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-25T11:43:14.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="OAaIFNdDp9JyHjijlz5i" version="13.10.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2234" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -495,7 +495,7 @@
         <mxCell id="6aMzThmqzdU35u3OIYam-48" value="Alert Jabatan Tidak Sesuai" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="6aMzThmqzdU35u3OIYam-1" vertex="1">
           <mxGeometry x="460" y="240" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6aMzThmqzdU35u3OIYam-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" parent="6aMzThmqzdU35u3OIYam-1" source="6aMzThmqzdU35u3OIYam-49" target="6aMzThmqzdU35u3OIYam-5" edge="1">
+        <mxCell id="bvSKurOPpVDBm1Tny1Xz-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6aMzThmqzdU35u3OIYam-1" source="6aMzThmqzdU35u3OIYam-49" target="fh_M3oQW8pCThirZO86J-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6aMzThmqzdU35u3OIYam-49" value="Output NRK, JABATAN" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" parent="6aMzThmqzdU35u3OIYam-1" vertex="1">
@@ -590,6 +590,12 @@
         </mxCell>
         <mxCell id="ebmcWqwtzFkIhxAPYMEe-1" value="Output Response HTTP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="6aMzThmqzdU35u3OIYam-1">
           <mxGeometry x="-250" y="615" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bvSKurOPpVDBm1Tny1Xz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6aMzThmqzdU35u3OIYam-1" source="fh_M3oQW8pCThirZO86J-0" target="6aMzThmqzdU35u3OIYam-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fh_M3oQW8pCThirZO86J-0" value="Pilih Menu Form Baru" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="6aMzThmqzdU35u3OIYam-1">
+          <mxGeometry x="-90" y="155" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
