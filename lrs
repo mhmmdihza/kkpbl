@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T11:38:42.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="eBLyxePvOzn4_Qzbm5bO" version="13.10.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-25T11:40:03.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="-XPIgexS2DrFnIo9G5wg" version="13.10.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2234" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -608,13 +608,13 @@
         <mxCell id="EFphbgtga3imFNuMcOqV-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" parent="MeGKYpg7c-DZxH80iXnZ-1" source="EFphbgtga3imFNuMcOqV-3" target="EFphbgtga3imFNuMcOqV-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EFphbgtga3imFNuMcOqV-3" value="Android Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
-          <mxGeometry x="650" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="EFphbgtga3imFNuMcOqV-3" value="Android Client Menjalankan Aplikasi" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
+          <mxGeometry x="650" y="90" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EFphbgtga3imFNuMcOqV-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" parent="MeGKYpg7c-DZxH80iXnZ-1" source="EFphbgtga3imFNuMcOqV-5" target="EFphbgtga3imFNuMcOqV-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EFphbgtga3imFNuMcOqV-5" value="Login" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
+        <mxCell id="EFphbgtga3imFNuMcOqV-5" value="Proses Login" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
           <mxGeometry x="470" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFphbgtga3imFNuMcOqV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" parent="MeGKYpg7c-DZxH80iXnZ-1" source="EFphbgtga3imFNuMcOqV-8" target="EFphbgtga3imFNuMcOqV-11" edge="1">
@@ -659,17 +659,17 @@
         <mxCell id="EFphbgtga3imFNuMcOqV-24" value="Server API SaveForm" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
           <mxGeometry x="515" y="610" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EFphbgtga3imFNuMcOqV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" parent="MeGKYpg7c-DZxH80iXnZ-1" source="EFphbgtga3imFNuMcOqV-26" target="EFphbgtga3imFNuMcOqV-37" edge="1">
+        <mxCell id="8JT5e62-PHzr71nACjZ5-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MeGKYpg7c-DZxH80iXnZ-1" source="EFphbgtga3imFNuMcOqV-26" target="EFphbgtga3imFNuMcOqV-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EFphbgtga3imFNuMcOqV-26" value="Update Status Tabel form_header" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
           <mxGeometry x="280" y="610" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EFphbgtga3imFNuMcOqV-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.537;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" parent="MeGKYpg7c-DZxH80iXnZ-1" source="EFphbgtga3imFNuMcOqV-32" target="EFphbgtga3imFNuMcOqV-35" edge="1">
+        <mxCell id="vJJNbVVU02rgk79Um1DV-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MeGKYpg7c-DZxH80iXnZ-1" source="EFphbgtga3imFNuMcOqV-32" target="8JT5e62-PHzr71nACjZ5-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EFphbgtga3imFNuMcOqV-32" value="Android Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
-          <mxGeometry x="-220" y="610" width="180" height="80" as="geometry" />
+        <mxCell id="EFphbgtga3imFNuMcOqV-32" value="Android Client Mendapatkan Response" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
+          <mxGeometry x="10" y="610" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EFphbgtga3imFNuMcOqV-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" parent="MeGKYpg7c-DZxH80iXnZ-1" source="EFphbgtga3imFNuMcOqV-35" target="EFphbgtga3imFNuMcOqV-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -679,12 +679,6 @@
         </mxCell>
         <mxCell id="EFphbgtga3imFNuMcOqV-35" value="HTTP Response 200(OK)" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
           <mxGeometry x="-210" y="410" width="190" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="EFphbgtga3imFNuMcOqV-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" parent="MeGKYpg7c-DZxH80iXnZ-1" source="EFphbgtga3imFNuMcOqV-37" target="EFphbgtga3imFNuMcOqV-32" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EFphbgtga3imFNuMcOqV-37" value="Output Response HTTP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
-          <mxGeometry x="-20" y="620" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EFphbgtga3imFNuMcOqV-38" value="Finish" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
           <mxGeometry x="-175" y="240" width="120" height="80" as="geometry" />
@@ -709,6 +703,12 @@
         </mxCell>
         <mxCell id="EFphbgtga3imFNuMcOqV-44" value="Daftar Form Pengajuan" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
           <mxGeometry x="230" y="170" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vJJNbVVU02rgk79Um1DV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MeGKYpg7c-DZxH80iXnZ-1" source="8JT5e62-PHzr71nACjZ5-1" target="EFphbgtga3imFNuMcOqV-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8JT5e62-PHzr71nACjZ5-1" value="Output Response HTTP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MeGKYpg7c-DZxH80iXnZ-1">
+          <mxGeometry x="-285" y="620" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
