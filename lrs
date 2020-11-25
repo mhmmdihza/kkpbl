@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T11:38:17.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="64lCiyC18ieY_S506CFz" version="13.10.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-25T11:38:30.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="rejDIKOvdt8zxUaZU9B2" version="13.10.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2234" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -474,7 +474,7 @@
         <mxCell id="6aMzThmqzdU35u3OIYam-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" parent="6aMzThmqzdU35u3OIYam-1" source="6aMzThmqzdU35u3OIYam-4" target="6aMzThmqzdU35u3OIYam-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6aMzThmqzdU35u3OIYam-4" value="Login" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="6aMzThmqzdU35u3OIYam-1" vertex="1">
+        <mxCell id="6aMzThmqzdU35u3OIYam-4" value="Proses Login" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="6aMzThmqzdU35u3OIYam-1" vertex="1">
           <mxGeometry x="470" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6aMzThmqzdU35u3OIYam-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" parent="6aMzThmqzdU35u3OIYam-1" source="6aMzThmqzdU35u3OIYam-5" target="6aMzThmqzdU35u3OIYam-48" edge="1">
