@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T11:40:17.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="0xw-eT0JwJrZ9EnYYD5l" version="13.10.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-25T11:41:34.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="RPkMtBSVZzMCvXbyivaB" version="13.10.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2234" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -698,17 +698,23 @@
         <mxCell id="EFphbgtga3imFNuMcOqV-43" value="Alert Gagal Menyimpan Data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
           <mxGeometry x="30" y="440" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EFphbgtga3imFNuMcOqV-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" parent="MeGKYpg7c-DZxH80iXnZ-1" source="EFphbgtga3imFNuMcOqV-44" target="EFphbgtga3imFNuMcOqV-8" edge="1">
+        <mxCell id="vJJNbVVU02rgk79Um1DV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MeGKYpg7c-DZxH80iXnZ-1" source="EFphbgtga3imFNuMcOqV-44" target="vJJNbVVU02rgk79Um1DV-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EFphbgtga3imFNuMcOqV-44" value="Daftar Form Pengajuan" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
-          <mxGeometry x="230" y="170" width="140" height="60" as="geometry" />
+        <mxCell id="EFphbgtga3imFNuMcOqV-44" value="List Form Pengajuan" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MeGKYpg7c-DZxH80iXnZ-1" vertex="1">
+          <mxGeometry x="20" y="170" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vJJNbVVU02rgk79Um1DV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MeGKYpg7c-DZxH80iXnZ-1" source="8JT5e62-PHzr71nACjZ5-1" target="EFphbgtga3imFNuMcOqV-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8JT5e62-PHzr71nACjZ5-1" value="Output Response HTTP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="MeGKYpg7c-DZxH80iXnZ-1">
           <mxGeometry x="-285" y="620" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vJJNbVVU02rgk79Um1DV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MeGKYpg7c-DZxH80iXnZ-1" source="vJJNbVVU02rgk79Um1DV-2" target="EFphbgtga3imFNuMcOqV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vJJNbVVU02rgk79Um1DV-2" value="Pilih menu halaman persetujuan" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="MeGKYpg7c-DZxH80iXnZ-1">
+          <mxGeometry x="220" y="165" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
